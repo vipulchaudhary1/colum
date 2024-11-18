@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .instagram{
+            width: 20%;
+            height: 50vh;
+            border: 5px solid rgb(185, 5, 5);
+            border-radius: 5px ;
+            box-shadow: 5px;
+            align-items: center;
+            background-color: blue;
+           margin-left:40%;
+           margin-top: 20px;
+           color: white;
+        }
+        .card1,.card2{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            backface-visibility: hidden;
+        }
+        .card1{
+            padding-left: 80px;
+            margin-top: 10px;
+            display: flex;
+
+        }
+        .img1{
+            width: 200px;
+            border-radius: 100px;
+        }
+        .card1 p{
+            margin: 10px;
+             font-weight: 800px;
+             font-size: 23px;
+        }
+        .btn{
+           margin: 20px;
+           width: 100px;
+           padding: 10px;
+           align-items: center;
+           margin-left: 50px;
+           border: 2px solid white;
+           border-radius: 5px;
+           color: brown;
+           background-color: aqua;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="instagram">
+    <div class="card1">
+        <img class="img1" src="./img/images.jpg" alt="">
+        <h1>vipul chudhary</h1>
+        <p>- web devlopment.</p>
+        <p>- fornt and develop.</p>
+        <button class="btn">  clik </button>
+    </div>
+    <div class="card2"></div>
+</div>
+</body>
+</html>
