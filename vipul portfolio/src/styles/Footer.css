@@ -1,0 +1,24 @@
+footer {
+  background: rgb(119 102 102 / 61%);
+  backdrop-filter: blur(5px);
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 1.5rem 1rem;
+  }
+
+  footer p {
+    font-size: 0.85rem;
+  }
+}
